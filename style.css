@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #574970;
+  color:#f9f8f8;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #0d1724;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.logo {
+  color:#7eb8ad;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+.nav-links a:hover {
+  color: #00f7c2;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: linear-gradient(145deg, #574970, #574970);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.hero-content h1 {
+  font-size: 3rem;
+  color: #00f7c2;
+  margin-bottom: 20px;
+}
+.hero-content p {
+  color: #ccc;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 12px 25px;
+  background: #00f7c2;
+  color: #0f1b2a;
+  border-radius: 25px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: #00d4aa;
+}
+
+/* Section Base */
+.section {
+  padding: 100px 20px 60px;
+  text-align: center;
+}
+.section h2 {
+  color: #00f7c2;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+/* Skills */
+.skills-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+.card {
+  background: #16283b;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #00f7c2;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card h3 {
+  font-size: 1.3rem;
+}
+.hidden-text {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  color: #ccc;
+  margin-top: 10px;
+}
+.card.active {
+  background: #574970;
+  transform: scale(1.03);
+}
+.card.active .hidden-text {
+  max-height: 100px;
+}
+
+/* About & Contact */
+.about p,
+.contact p {
+  color: #ccc;
+  max-width: 700px;
+  margin: 0 auto 20px;
+}
+
+/* Contact Form */
+form {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input, textarea {
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  background: #101010;
+  color: #fff;
+}
+textarea {
+  height: 100px;
+  resize: none;
+}
+button {
+  padding: 12px;
+  background: #00f7c2;
+  color: #0f1b2a;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+button:hover {
+  background: #00d4aa;
+}
+
+/* Responsive */
+@media(min-width: 768px) {
+  .skills-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
