@@ -4,6 +4,7 @@ Welcome to my Responsive Landing Page Project, developed as part of the SkillCra
 This project demonstrates a modern and fully responsive landing page with a fixed navigation menu that reacts to user actions such as scrolling and hovering, ensuring a smooth and engaging user experience across all screen sizes.
 
 📌Project Overview 
+
 This website highlights the core components of modern web design,including:
 
 🏠 A full-screen hero/home section with a clean layout
