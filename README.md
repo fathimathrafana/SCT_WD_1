@@ -7,9 +7,13 @@ This project demonstrates a modern and fully responsive landing page with a fixe
 This website highlights the core components of modern web design,including:
 
 🏠 A full-screen hero/home section with a clean layout
+
 🛠️ A Skills section with clickable animated cards revealing information
+
 🧑‍💼 Informative About and Contact sections
+
 📜 Smooth scroll navigation for seamless one-page experience
+
 📱 Fully responsive design suitable for all screen sizes
 
 🚀 Features
@@ -27,22 +31,27 @@ This website highlights the core components of modern web design,including:
 🧑‍💻 Technologies Used
 
 .HTML5 – Semantic structure
+
 .CSS3 – Flexbox, Grid, Media Queries, Animations
+
 .JavaScript – For interactivity and animations.
 
 📁 Project Structure
 
 ├── index.html
+
 ├── style.css
+
 └── assets/     (if you have any images, fonts, or media)
 
 index.html – Main file containing the HTML structure
+
 style.css – All custom styles and responsive layout 
 
 📜 License
 This project was submitted as part of the Skill Craft Technologies Internship and is intended for educational use only.
 
 👩‍💻 Author
-Fathimath Rafana CR
 
+Fathimath Rafana CR
 GitHub: https://github.com/fathimathrafana
