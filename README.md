@@ -1,4 +1,4 @@
-🚀 Responsive Landing Page – SkillCraft Technology
+🚀 Responsive Landing Page 
 
 Welcome to my Responsive Landing Page Project, developed as part of the SkillCraft Technology Web Development Internship (Task 01).
 This project demonstrates a modern and fully responsive landing page with a fixed navigation menu that reacts to user actions such as scrolling and hovering, ensuring a smooth and engaging user experience across all screen sizes.
@@ -49,6 +49,7 @@ index.html – Main file containing the HTML structure
 style.css – All custom styles and responsive layout 
 
 📜 License
+
 This project was submitted as part of the Skill Craft Technologies Internship and is intended for educational use only.
 
 👩‍💻 Author
