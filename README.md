@@ -15,9 +15,13 @@ This website highlights the core components of modern web design,including:
 🚀 Features
 
 ✅ Responsive Layout – Optimized for mobile, tablet, and desktop
+
 ✅ Animated Skill Cards – Click to reveal more details with smooth transitions
+
 ✅ Sticky Navigation Bar – Stays on top while scrolling
+
 ✅ Smooth Scrolling – User-friendly, single-page navigation
+
 ✅ Custom Contact Form – Styled inputs for collecting messages
 
 🧑‍💻 Technologies Used
